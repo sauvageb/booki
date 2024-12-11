@@ -1,0 +1,136 @@
+:root{
+    --primary:#0065FC; 
+    --secondary:#DEEBFF;
+    --bg-dark: #D9D9D9;
+    --bg-light: #F2F2F2;
+}
+
+html {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.main-container {
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+header nav ul li {
+    margin-right: 8px;
+}
+
+.header-logo {
+    height: 20px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: black;
+    margin: 8px;
+    padding-top: 8px;
+}
+
+a[href="#hebergements"], .nav-list a:hover{
+    border-top: 2px solid var(--primary);
+    color: var(--primary)
+}
+
+/* Input Search */
+.research-form {
+    display: flex;
+}
+
+.position-icon-features {
+    background-color: var(--bg-light);
+    padding: 8px;
+    border-radius: 5px 0 0 5px;
+}
+
+.destination-input-text{
+    padding: 8px;
+    border: 1px solid var(--bg-light);
+    border-right: 0px;
+}
+
+/* Section Filter */
+.filters-section {
+    display: flex;
+    align-items: center;
+}
+
+.filters {
+    margin-left: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.destination-input-submit {
+    background-color: var(--primary);
+    color: white;
+    border-radius: 0 5px 5px 0;
+    border: 0;
+    padding: 8px;
+}
+
+.icon-title-filter {
+    border: 1px solid var(--bg-dark);
+    border-radius: 14px;
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 4px;
+}
+
+.filter-submit {
+    border: 0;
+    background-color: inherit;
+}
+
+.icon-title-filter i {
+    color: var(--primary);
+}
+
+/* Articles */
+article {
+    margin-top: 8px;
+}
+
+/* Information */
+.hebergements-info {
+    display: flex;
+    align-items: center;
+}
+
+.fa-regular.fa-circle {    
+    color: var(--bg-dark);
+}
+.fa-solid {
+    color: var(--primary);
+}
+
+.hebergements {
+    background-color: var(--bg-dark);
+}
+
+.hebergements-cards {
+    display: flex;
+    flex-direction: row;
+}
+.hebergements-cards a {
+    border-radius: 2px solid var(--bg-dark);
+}
