@@ -134,3 +134,18 @@ article {
 .hebergements-cards a {
     border-radius: 2px solid var(--bg-dark);
 }
+
+footer {
+    background-color: var(--bg-dark);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
